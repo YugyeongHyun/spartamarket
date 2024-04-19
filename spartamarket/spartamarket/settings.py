@@ -72,6 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'spartamarket.wsgi.application'
 
+AUTH_USER_MODEL = 'accounts.User'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
